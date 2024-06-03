@@ -1,0 +1,66 @@
+.songcard{
+    border-radius: 10px;
+    border-color: rgba(30, 120, 255, 0.87);
+    border-style: solid;
+    height: 95vh;
+    padding: 0px 30px 0px 30px;
+    justify-content: center;
+    background-color: rgb(199, 247, 255);
+}
+
+.items{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.imageofsong img{
+    border-radius: 20em;
+    height: 15em;
+    width: 15em;
+    border-style: solid;
+    border-color: rgb(0, 229, 255);
+    display: flex;
+    justify-content: center;
+}
+.songname{
+    align-items: center;
+}
+#line{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #898989;
+    border-radius: 20px;
+}
+#line::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 5px solid #61d5ff;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls div{
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #00bbff;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.244);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.controls div:nth-child(2){
+    color: white;
+    background: #00bbff;
+    transform: scale(1.5);
+}
