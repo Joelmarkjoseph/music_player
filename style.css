@@ -69,8 +69,8 @@
 .song{
     border:#000000 2px solid;
     border-radius: 10px;
-    padding: 20px 10px 20px 10px
-
+    padding: 20px 10px 20px 10px;
+    margin:10px;
 }
 .song a{
     text-decoration: none;
