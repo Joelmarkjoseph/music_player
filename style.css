@@ -77,3 +77,9 @@
     color: darkblue;
     font-family: 'Times New Roman', Times, serif;
 }
+button{
+    border-color: #00000000;
+    background: rgb(199, 247, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
